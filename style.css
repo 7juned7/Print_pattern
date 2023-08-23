@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+   
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    height: 100vh;
+    gap: 1rem;
+    
+}
+.container .heading{
+    font-size: 2rem;
+    
+}
+.all-pattern-container{
+
+    width: 50%;
+
+    height: 100vh;
+}
+.pattern-container{
+   display: flex;
+    width: 50%;
+    height: 100vh;
+  flex-direction: column;
+  background-color: red;
+  align-items: center;
+  
+}
+.pattern-name{
+    font-size: 13px;
+    font-weight: 700;
+   
+}
+.patterns{
+    width: 100px;
+    
+    display: flex;
+    flex-direction: column;
+  overflow: hidden;
+  padding:  10px;
+  gap: 10px;
+    border-radius: 20px;
+    background-color: rgb(52, 145, 245);
+   
+cursor: pointer;
+}
+.patterns:hover{
+    
+    box-shadow: 0px  0px 30px 0px  rgb(0, 0, 0);
+}
+.patterns:active{
+    border: 2px solid red;
+    background-color: red;
+}
+
+.patterns img{
+border-radius: 10px;
+box-shadow: 1px 1px 10px 0px  rgb(45, 44, 44);
+}
+
+.all-pattern{
+   display: flex;
+   flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px;
+
+    
+}
+.inputs{
+    display: flex;
+    padding: 10px;
+    font-size: 1rem;
+    align-items: center;
+    gap: 10px;
+
+}
+.inputs input{
+    width: 30px;
+    height: 30px;
+    border: none;
+   
+
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.genrate-pattern{
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+.star{
+ display: flex;
+ 
+
+}
